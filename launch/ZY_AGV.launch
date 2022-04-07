@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="zy_agv_pkg" type="AGV_Mission.py" name="Mission_Node">
+        <param name="host_ip" value="192.168.10.124" />
+        <param name="host_port" value="50002" />
+    </node>
+</launch>
+
